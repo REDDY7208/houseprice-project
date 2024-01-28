@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Price Prediction</title>
+    <style>
+        body {
+            background-image: url('Templates/houseimage.jpg'); /* Replace 'your-background-image-url.jpg' with the actual path to your background image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif; /* You can change the font family */
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            text-align: center;
+            color: #fff; /* You can change the text color */
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.8); /* You can change the background color and transparency */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* You can change the box shadow */
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50; /* You can change the submit button color */
+            color: white;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Cell phone  Price Classification</h2>
+
+<form action="/" method="post">
+    <label for="feature1">Feature 1:</label>
+    <input type="number" id="feature1" name="feature1" required>
+    <br>
+
+    <label for="feature2">Feature 2:</label>
+    <input type="number" id="feature2" name="feature2" required>
+    <br>
+
+    <label for="feature3">Feature 3:</label>
+    <input type="number" id="feature3" name="feature3" required>
+    <br>
+
+    <label for="feature4">Feature 4:</label>
+    <input type="number" id="feature4" name="feature4" required>
+    <br>
+    
+
+    <input type="submit" value="Predict Price">
+</form>
+
+</body>
+</html>
